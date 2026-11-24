@@ -44,9 +44,9 @@ La fonction `reserve(individu)` calcule la réserve de chaque intervalle et reto
 
 | Fichier | Méthode |
 |---------|---------|
-| `cedule_genetique.py` | Algorithme génétique (population de 10 individus, 30 générations) |
-| `cedule_recuit.py` | Recuit simulé |
-| `cedule_tabou.py` | Recherche tabou |
+| `cedule_de_maintenance_genetique.py` | Algorithme génétique (population de 10 individus, 30 générations) |
+| `cedule_de_maintenance_recuit_simule.py` | Recuit simulé |
+| `cedule_de_maintenance_tabou.py` | Recherche tabou |
 
 ### 1. Algorithme génétique
 
@@ -81,12 +81,26 @@ Paramètres : `max_iteration`, `taille_tabou`.
 Il faut Python 3 (aucune bibliothèque externe). Dans le dossier :
 
 ```
-python cedule_genetique.py
-python cedule_recuit.py
-python cedule_tabou.py
+python cedule_de_maintenance_genetique.py
+python cedule_de_maintenance_recuit_simule.py
+python cedule_de_maintenance_tabou.py
 ```
 
 Chaque programme affiche le meilleur individu et son score (la plus petite réserve, en MW).
+
+## Captures d'exécution
+
+### Algorithme génétique
+
+![Exécution de l'algorithme génétique](Images/cedule_genetique.png)
+
+### Recuit simulé
+
+![Exécution du recuit simulé](Images/cedule_recuit_simule.png)
+
+### Recherche tabou
+
+![Exécution de la recherche tabou](Images/cedule_recuit_tabou.png)
 
 ## Remarques
 

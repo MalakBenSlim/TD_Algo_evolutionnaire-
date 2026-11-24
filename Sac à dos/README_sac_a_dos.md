@@ -37,11 +37,11 @@ On cherche à **augmenter** la valeur (contrairement au voyageur de commerce où
 
 | Fichier | Méthode |
 |---------|---------|
-| `sac_tabou.py` | Recherche tabou |
-| `sac_recuit.py` | Recuit simulé |
-| `sac_genetique.py` | Algorithme génétique |
+| `sac_a_dos_tabou.py` | Recherche tabou |
+| `sac_a_dos_recuit_simule.py` | Recuit simulé |
+| `sac_a_dos_genetique.py` | Algorithme génétique |
 
-### 1. Recherche tabou (`sac_tabou.py`)
+### 1. Recherche tabou (`sac_a_dos_tabou.py`)
 
 - On génère des solutions et on garde la meilleure trouvée (`best_solution`).
 - La liste tabou garde les dernières solutions. Quand elle est pleine, on retire la plus ancienne.
@@ -49,7 +49,7 @@ On cherche à **augmenter** la valeur (contrairement au voyageur de commerce où
 
 Remarque : dans cette version, chaque solution est générée au hasard et la liste tabou n'est jamais consultée pour interdire une solution. Pour une recherche tabou complète, il faut partir d'une solution, évaluer ses voisins (changer un seul objet) et choisir le meilleur voisin qui n'est pas dans la liste tabou.
 
-### 2. Recuit simulé (`sac_recuit.py`)
+### 2. Recuit simulé (`sac_a_dos_recuit_simule.py`)
 
 On travaille avec **une seule solution**.
 
@@ -58,7 +58,7 @@ On travaille avec **une seule solution**.
 - La température baisse à chaque palier (`température = température * alpha`). À la fin, on n'accepte presque plus de mauvaises solutions.
 - Paramètres : `temperature`, `temperature_min`, `alpha`, `nombre_essai`.
 
-### 3. Algorithme génétique (`sac_genetique.py`)
+### 3. Algorithme génétique (`sac_a_dos_genetique.py`)
 
 On travaille avec une **population** de solutions (10 individus, 30 générations).
 
@@ -72,9 +72,9 @@ On travaille avec une **population** de solutions (10 individus, 30 génération
 Il faut Python 3 (aucune bibliothèque externe). Dans le dossier :
 
 ```
-python sac_tabou.py
-python sac_recuit.py
-python sac_genetique.py
+python sac_a_dos_tabou.py
+python sac_a_dos_recuit_simule.py
+python sac_a_dos_genetique.py
 ```
 
 Chaque programme affiche la meilleure solution trouvée.
@@ -82,6 +82,20 @@ Chaque programme affiche la meilleure solution trouvée.
 ## Résultat attendu
 
 Pour ces données, la meilleure solution est `[0, 1, 1, 1, 1]` : poids total 8 (capacité 15) et valeur totale **15**. L'objet 1 est trop lourd (poids 12) pour entrer avec l'objet 5, qui a la plus grande valeur. Dans nos essais, le recuit simulé et l'algorithme génétique ont trouvé cette valeur à chaque exécution.
+
+## Captures d'exécution
+
+### Recherche tabou
+
+![Exécution de la recherche tabou](Images/sac_a_dos_tabou.png)
+
+### Recuit simulé
+
+![Exécution du recuit simulé](Images/sac_a_dos_recuit_simule.png)
+
+### Algorithme génétique
+
+![Exécution de l'algorithme génétique](Images/sac_a_dos_genetique.png)
 
 ## Remarques
 
