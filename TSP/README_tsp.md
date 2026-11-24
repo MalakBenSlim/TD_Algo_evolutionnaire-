@@ -68,15 +68,15 @@ Chaque programme affiche la meilleure solution trouvée et sa distance.
 
 ### Recherche tabou
 
-![Exécution de la recherche tabou](../Images/tsp_tabou.png)
+![Exécution de la recherche tabou](../Images/TSP_tabou.png)
 
 ### Recuit simulé
 
-![Exécution du recuit simulé](../Images/tsp_recuit_simule.png)
+![Exécution du recuit simulé](../Images/TSP_recuit_simule.png)
 
 ### Algorithme génétique
 
-![Exécution de l'algorithme génétique](../Images/tsp_genetique.png)
+![Exécution de l'algorithme génétique](../Images/TSP_genetique.png)
 
 ## Résultat attendu
 
