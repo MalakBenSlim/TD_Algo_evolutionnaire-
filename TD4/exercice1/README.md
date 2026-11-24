@@ -91,4 +91,6 @@ Les deux schémas ont la même adaptation moyenne, donc le même avantage de sé
 
 ## Code
 
-[`schemas.py`](schemas.py) calcule la borne du théorème des schémas pour `1****` et `0**10` 
+[`schemas.py`](schemas.py) calcule la borne du théorème des schémas pour `1****` et `0**10`
+
+![Exécution de ThSchema](../../Images/ThSchema.png)

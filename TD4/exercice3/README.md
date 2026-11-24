@@ -123,3 +123,5 @@ Complexité totale : **O(Tmax · n)**. Résultat attendu : `gbest → 2` et `f(g
 
 - la vérification de la **première itération à la main** (question 1),
 - l'implémentation complète du **PSO** avec `n = 20` particules (question 2).
+
+![Exécution de PSO](../../Images/PSO.png)

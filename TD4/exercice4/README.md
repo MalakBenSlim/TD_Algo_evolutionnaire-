@@ -121,11 +121,4 @@ Fin
 
 [`aco_sac_a_dos.py`](aco_sac_a_dos.py) implémente l'algorithme avec des boucles simples, puis vérifie le résultat en énumérant les 2ⁿ solutions.
 
-Sortie attendue sur l'exemple fourni (8 objets, C = 60) :
-
-```
-Solution ACO   : [1, 1, 0, 1, 1, 0, 0, 1]
-Objets choisis : [1, 2, 4, 5, 8]
-Valeur = 310  Poids = 58  (capacité 60 )
-Optimum exact (énumération) : 310
-```
+![Exécution de ACO](../../Images/sac_a_dos_aco.png)
