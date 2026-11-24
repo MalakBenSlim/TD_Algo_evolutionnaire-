@@ -92,15 +92,15 @@ Chaque programme affiche le meilleur individu et son score (la plus petite rése
 
 ### Algorithme génétique
 
-![Exécution de l'algorithme génétique](Images/cedule_genetique.png)
+![Exécution de l'algorithme génétique](../Images/cedule_genetique.png)
 
 ### Recuit simulé
 
-![Exécution du recuit simulé](Images/cedule_recuit_simule.png)
+![Exécution du recuit simulé](../Images/cedule_recuit_simule.png)
 
 ### Recherche tabou
 
-![Exécution de la recherche tabou](Images/cedule_recuit_tabou.png)
+![Exécution de la recherche tabou](../Images/cedule_recuit_tabou.png)
 
 ## Remarques
 

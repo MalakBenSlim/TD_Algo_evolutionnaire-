@@ -87,15 +87,15 @@ Pour ces données, la meilleure solution est `[0, 1, 1, 1, 1]` : poids total 8 (
 
 ### Recherche tabou
 
-![Exécution de la recherche tabou](Images/sac_a_dos_tabou.png)
+![Exécution de la recherche tabou](../Images/sac_a_dos_tabou.png)
 
 ### Recuit simulé
 
-![Exécution du recuit simulé](Images/sac_a_dos_recuit_simule.png)
+![Exécution du recuit simulé](../Images/sac_a_dos_recuit_simule.png)
 
 ### Algorithme génétique
 
-![Exécution de l'algorithme génétique](Images/sac_a_dos_genetique.png)
+![Exécution de l'algorithme génétique](../Images/sac_a_dos_genetique.png)
 
 ## Remarques
 
